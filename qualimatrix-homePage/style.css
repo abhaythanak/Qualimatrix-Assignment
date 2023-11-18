@@ -32,6 +32,67 @@ body{
     padding: 7px 10px;
     color: white;
 }
+/* first Page */
+.bg-img{
+    background-image: url('https://motionarray.imgix.net/preview-1866115-ZHeBUzc42ohdX5tx-large.png?w=660&q=60&fit=max&auto=format');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: -500px;
+}
+.front-page{
+    width: 60%;
+    margin: 50px 30px 20px 70px;
+}
+
+  .text {
+    overflow: hidden;
+    color: blue;
+    font-size: xx-large;
+    font-weight: 800;
+    border-right: 0.15em solid orange; /* You can change the color and width */
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(40, end), blink-caret 3.55s step-end infinite;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange; /* You can change the color */
+    }
+  }
+.form-container1 button {
+    font-weight: 500;
+    color: blue;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: transparent;
+  }
+ 
+  .form-container1 button:hover {
+    font-weight: 700;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
 
 /*  CONTACT US */
 
@@ -55,6 +116,7 @@ body{
     display: flex;
     width: 100%;
     gap: 30px;
+    margin-bottom: 90px;
     
   }
   .left-side{
@@ -126,6 +188,26 @@ body{
     gap: 10px;
   }
 
+  .support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .support-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    gap: 50px;
+    width: 70%;
+    height: 10vh;
+    background-color: #0159DC;
+    color: white;
+
+  }
+
   /* MAP */
  
   .map{
@@ -133,9 +215,36 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
-    margin-bottom: -500px;
+    margin-top: 100px;
+    margin-bottom: -600px;
   }
   
+  .contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+  }
+  .sub-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 13vh; 
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  .sub-box h1{
+    color: blue;
+    font-size: large;
+    margin-top: 5px;
+  }
+  .sub-box p{
+    font-size: small;
+    margin-left: 15px;
+  }
 
 /* FOOTER */
 
