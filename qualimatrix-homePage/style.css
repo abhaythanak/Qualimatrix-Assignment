@@ -32,10 +32,115 @@ body{
     padding: 7px 10px;
     color: white;
 }
+
+/*  CONTACT US */
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .header-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+  }
+
+  .form-container {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    
+  }
+  .left-side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .form-container input,
+  .form-container textarea {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+
+  .form-container textarea {
+    width: 100%;
+    resize: vertical;
+    
+  }
+
+  .form-container input[type="checkbox"] {
+    margin-top: 5px;
+  }
+
+  .form-container button {
+    font-weight: 500;
+    color: blue;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: white;
+  }
+  .form-container button:hover {
+    font-weight: 700;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .submitbtn span{
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    margin-right: 10px;
+  }
+  .submitbtn span i{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: smaller;
+  }
+
+  .acceptTerms{
+    width: 10px;
+    height: 10px;
+  }
+
+  .terms{
+    display: flex;
+    gap: 10px;
+  }
+
+  /* MAP */
+ 
+  .map{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/69/World_map_blank_gmt.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: -500px;
+  }
+  
+
 /* FOOTER */
 
 
-.container{
+.container-footer{
 	max-width: 1170px;
 	margin:auto;
 }
