@@ -38,14 +38,15 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
-    margin-bottom: -500px;
+    margin-bottom: -450px;
+    margin-top: -30px;
 }
 .front-page{
     width: 60%;
     margin: 50px 30px 20px 70px;
 }
 
-  .text {
+.text {
     overflow: hidden;
     color: blue;
     font-size: xx-large;
@@ -83,17 +84,66 @@ body{
     margin-top: 10px;
     margin-left: 5px;
     background-color: transparent;
-  }
+}
  
-  .form-container1 button:hover {
+.form-container1 button:hover {
     font-weight: 700;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
     margin-top: 10px;
     margin-left: 5px;
-  }
+}
+/* Awards & Recognition */
+.logo-i{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 50px;
+    border-radius: 20px;
+    background-color: #33c1fe;
+    color: white;
+    
+}
+.logo-i h1{
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    background-color: blue;
+    padding: 19px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 
+
+}
+.logo-img{
+    margin-left: 200px;
+}
+.logo-img img{
+    width: 115px;
+    height: 100px;
+    margin: 10px 3px;
+}
+
+/* services */
+.services{
+    margin-top: 27px;
+    width: 100%;
+}
+/* technology  */
+.technology{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 100px;
+    
+}
 /*  CONTACT US */
 
 .container {
@@ -103,48 +153,48 @@ body{
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  .header-text{
+}
+.header-text{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 30px;
-  }
+}
 
-  .form-container {
+.form-container {
     display: flex;
     width: 100%;
     gap: 30px;
     margin-bottom: 90px;
     
-  }
-  .left-side{
+}
+.left-side{
     display: flex;
     flex-direction: column;
     width: 50%;
-  }
+}
 
-  .form-container input,
-  .form-container textarea {
+.form-container input,
+.form-container textarea {
     width: 100%;
     margin: 10px;
     padding: 10px;
     border: 1px solid gray;
     border-radius: 4px;
-  }
+}
 
-  .form-container textarea {
+.form-container textarea {
     width: 100%;
     resize: vertical;
     
-  }
+}
 
-  .form-container input[type="checkbox"] {
+.form-container input[type="checkbox"] {
     margin-top: 5px;
-  }
+}
 
-  .form-container button {
+.form-container button {
     font-weight: 500;
     color: blue;
     padding: 10px 15px;
@@ -153,47 +203,47 @@ body{
     margin-top: 10px;
     margin-left: 5px;
     background-color: white;
-  }
-  .form-container button:hover {
+}
+.form-container button:hover {
     font-weight: 700;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
     margin-top: 10px;
     margin-left: 5px;
-  }
-  .submitbtn span{
+}
+.submitbtn span{
     padding: 5px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     margin-right: 10px;
-  }
-  .submitbtn span i{
+}
+.submitbtn span i{
     padding: 5px;
     background-color: blue;
     color: white;
     border-radius: 50%;
     font-size: smaller;
-  }
+}
 
-  .acceptTerms{
+.acceptTerms{
     width: 10px;
     height: 10px;
-  }
+}
 
-  .terms{
+.terms{
     display: flex;
     gap: 10px;
-  }
+}
 
-  .support{
+.support{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .support-detail{
+}
+.support-detail{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,27 +255,26 @@ body{
     height: 10vh;
     background-color: #0159DC;
     color: white;
-
-  }
+}
 
   /* MAP */
  
-  .map{
+.map{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/69/World_map_blank_gmt.svg");
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
     margin-top: 100px;
     margin-bottom: -600px;
-  }
+}
   
-  .contact-box{
+.contact-box{
     display: flex;
     justify-content: center;
     align-items: center; 
     
-  }
-  .sub-box{
+}
+.sub-box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,16 +284,16 @@ body{
     background-color: white;
     margin: 10px;
     border-radius: 5px;
-  }
-  .sub-box h1{
+}
+.sub-box h1{
     color: blue;
     font-size: large;
     margin-top: 5px;
-  }
-  .sub-box p{
+}
+.sub-box p{
     font-size: small;
     margin-left: 15px;
-  }
+}
 
 /* FOOTER */
 
